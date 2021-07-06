@@ -4,9 +4,11 @@
 ### +375 29 155 07 91
 ### Minsk, Belarus
 
-graduated from high school with a gold medal. during school time have been participate in olympiads(_inc. English_) and sport competitions.
+# Common info
 
-Now a student of [BSUIR](bsuir.by) majoring in _systems engineer_. Thanks to university got apportunity to try myself in different fields of information technologys and now I am going to improve and develop personal skills in web development.
+I graduated from high school with a gold medal. While at schol I participated in various olympiads, including *English*. Besides I took an active part in sport competitions.
+
+Now I'm a student of [BSUIR](bsuir.by) majoring in _systems engineer_. Due to university I have a wide range of opportunities to try myself in different areas of information technology and now I have an urge to improve personal skills in _web development_.
 
 # Technologies
 
@@ -15,7 +17,7 @@ Now a student of [BSUIR](bsuir.by) majoring in _systems engineer_. Thanks to uni
 - SCSS(SASS) preprocessor
 - JS
 
-
+# Sample code
 
 ```
 const moreElems = document.querySelectorAll('.more');
@@ -40,4 +42,10 @@ moreElems.forEach((moreElem) => {
     })
 })
 ```
-        
+* # Education
+
+    - General secondary education, incomplete higher education.
+
+* # Level of english
+
+    - Intermediate
