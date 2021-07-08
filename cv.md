@@ -19,7 +19,7 @@ Now I'm a student of [BSUIR](bsuir.by) majoring in _systems engineer_. Due to un
 
 # Sample code
 
-```
+```javascript
 const moreElems = document.querySelectorAll('.more');
 console.log(moreElems);
 
