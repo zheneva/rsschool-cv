@@ -5,93 +5,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="NULLstyle.css">
     <link rel="stylesheet" href="style.css">
     <title>summary</title>
 </head>
 
 <body>
     <div class="wrapper">
-        <header class="header">
-            <div class="header__photo">
-                <img src="" alt="profile avatar">
-            </div>
-            <div class="header__info info-body">
-                <div class="header__info-body info-body">
-                    <h1 class="info-body__title">EUHENY ANDROSOV</h1>
-                    <h2 class="info-body__subtitle">student of the RS-Scholl</h2>
+        <div class="conteiner">
+            <header class="header">
+                <div class="header__photo">
+                    <img src="img/profile-avatar.jpg" alt="profile avatar">
                 </div>
-                <div class="header__info-conacts info-conacts">
-                    <ul class="info-conacts__list">
-                        <li class="info-conacts__elem">mr_zhenkins@mail.ru</li>
-                        <li class="info-conacts__elem">+375 29 155 07 91</li>
-                        <li class="info-conacts__elem">Minsk, Belarus</li>
-                    </ul>
-                </div>
-            </div>
-        </header>
-        <main class="skills-review">
-                <section class="skills-review__technologies technologies">
-                    <h2 class="technologies__title section-skills__titile">Technologies</h2>
-                    <ul class="technologies__list">
-                        <li class="technologies__elem">HTML 5</li>
-                        <li class="technologies__elem">CSS 3</li>
-                        <li class="technologies__elem">SCSS(SASS) preprocessor</li>
-                        <li class="technologies__elem">JS</li>
-                        <li class="technologies__elem">version control system Git</li>
-                    </ul>
-                </section>
-                <section class="education">
-                    <h2 class="education__title section-skills__titile">Education</h2>
-                    <div class="education__body">General secondary education, incomplete higher education.</div>
-                </section>
-                <section class="language">
-                    <h2 class="language__title section-skills__titile">Level of english</h2>
-                    <div class="language__body">Intermediate</div>
-                </section>
-        </main>
-        <aside class="aboute">
-            <sectioon class="comon-info">
-                <h3 class="comon-info__titile section-aboute__title">Common info</h3>
-                <div class="common-info__body">I graduated from high school with a gold medal. While at schol I
-                    participated in various olympiads, including English. Besides I took an active part in sport
-                    competitions.
-
-                    Now I’m a student of BSUIR majoring in systems engineer. Due to university I have a wide range of
-                    opportunities to try myself in different areas of information technology and now I have an urge to
-                    improve personal skills in web development.
-                </div>
-            </sectioon>
-            <section class="coding">
-                <h3 class="coding__example section-aboute__title">Sample code</h3>
-                <pre>
-                    <div class="coding__body">
-                        const moreElems = document.querySelectorAll('.more');
-                        console.log(moreElems);
-                        
-                        const modalElem = document.querySelector('.modal');
-                        
-                        const openModal = () => {
-                            modalElem.classList.remove('hidden');
-                        };
-                        
-                        const closeModal = () => {
-                            modalElem.classList.add('hidden');
-                        };
-                        
-                        moreElems.forEach((moreElem) => {
-                            moreElem.addEventListener('click', openModal)
-                            modalElem.addEventListener('click', (event) => {
-                                const target = event.target;
-                        
-                                if (target.classList.contains('overlay') || target.classList.contains('modal__close')) closeModal();
-                            })
-                        })
+                <div class="header__info info-body">
+                    <div class="header__info-body info-body">
+                        <h1 class="info-body__title">EUHENY ANDROSOV</h1>
+                        <h2 class="info-body__subtitle">student of the RS-Scholl</h2>
                     </div>
-                </pre>
+                    <div class="header__info-conacts info-conacts">
+                        <ul class="info-conacts__list">
+                            <li class="info-conacts__elem">mr_zhenkins@mail.ru</li>
+                            <li class="info-conacts__elem">+375 29 155 07 91</li>
+                            <li class="info-conacts__elem">Minsk, Belarus</li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <section class="content">
+                <main class="skills-review">
+                    <section class="skills-review__technologies technologies">
+                        <h2 class="technologies__title section-skills__titile">Technologies</h2>
+                        <ul class="technologies__list">
+                            <li class="technologies__elem">HTML 5</li>
+                            <li class="technologies__elem">CSS 3</li>
+                            <li class="technologies__elem">SCSS(SASS) preprocessor</li>
+                            <li class="technologies__elem">JS</li>
+                            <li class="technologies__elem">version control system Git</li>
+                        </ul>
+                    </section>
+                    <section class="education">
+                        <h2 class="education__title section-skills__titile">Education</h2>
+                        <div class="education__body">General secondary education, incomplete higher education.</div>
+                    </section>
+                    <section class="language">
+                        <h2 class="language__title section-skills__titile">Level of english</h2>
+                        <div class="language__body">Intermediate</div>
+                    </section>
+                </main>
+                <aside class="aboute">
+                    <sectioon class="comon-info">
+                        <h3 class="comon-info__titile section-aboute__title">Common info</h3>
+                        <div class="common-info__body">I graduated from high school with a gold medal. While at schol I
+                            participated in various olympiads, including English. Besides I took an active part in sport
+                            competitions.
+        
+                            Now I’m a student of BSUIR majoring in systems engineer. Due to university I have a wide range of
+                            opportunities to try myself in different areas of information technology and now I have an urge to
+                            improve personal skills in web development.
+                        </div>
+                    </sectioon>
+                    <section class="coding">
+                        <h3 class="coding__example section-aboute__title">Sample code</h3>
+                        <pre>
+                            <div class="coding__body">
+    const moreElems = document.querySelectorAll('.more');
+    console.log(moreElems);
+
+    const modalElem = document.querySelector('.modal');
+
+    const openModal = () => {
+        modalElem.classList.remove('hidden');
+    };
+
+    const closeModal = () => {
+        modalElem.classList.add('hidden');
+    };
+
+    moreElems.forEach((moreElem) => {
+        moreElem.addEventListener('click', openModal)
+        modalElem.addEventListener('click', (event) => {
+            const target = event.target;
+
+            if (target.classList.contains('overlay') || 
+            target.classList.contains('modal__close')) closeModal();
+        })
+    })
+                            </div>
+                        </pre>
+                    </section>
+                </aside>
             </section>
-        </aside>
-        <footer> zheneva 2021 &copy;</footer>
-    </div>
+            <footer> zheneva 2021 &copy;</footer>
+        </div>
 </body>
 
 </html>
