@@ -1,3 +1,15 @@
+/*------------common styles-----------------*/
+.section-aboute__title {
+    font-family: "Lato";
+
+    color: #e1bf7b;
+    font-size: 46px;
+    line-height: 52px;
+    font-weight: 700;
+
+    margin-bottom: 40px;
+}
+
 .wrapper {
     width: 100%;
 }
@@ -48,6 +60,7 @@
     font-size: 50px;
     line-height: 64px;
 
+    padding: 5px 7px;
     background-color: rgb(158, 154, 154);
 }
 
@@ -77,4 +90,38 @@
 
 .skills-review {
     flex: 0 0 35%;
+}
+
+.aboute {
+    padding: 30px;
+    background-color: #403f3d;
+}
+.comon-info {
+    margin-bottom: 40px;
+}
+
+.common-info__body {
+    font-family: "Hind Siliguri";
+
+    color: #fff;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+
+    padding-bottom: 30px;
+
+    border-bottom: 2px solid #e1bf7b;
+}
+
+.coding pre {
+    margin: -20px 0;
+}
+.coding__body {
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+
+    padding-bottom: 30px;
+
+    border-bottom: 2px solid #e1bf7b;
 }
