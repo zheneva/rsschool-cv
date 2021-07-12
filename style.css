@@ -10,6 +10,15 @@
     margin-bottom: 40px;
 }
 
+
+.section-skills__titile{
+    font-family: "Lato";
+    font-size: 36px;
+    font-weight: 700;
+
+    margin-bottom: 30px;
+}
+
 .wrapper {
     width: 100%;
 }
@@ -21,6 +30,7 @@
 .header {
     padding: 20px 0px 20px 30px;
     background-color: #e4d9d9;
+    /*background-color: #e1bf7b;*/
     display: flex;
     justify-content: space-between;
 
@@ -62,6 +72,7 @@
 
     padding: 5px 7px;
     background-color: rgb(158, 154, 154);
+    margin-bottom: 10px;
 }
 
 .info-body__subtitle {
@@ -84,6 +95,7 @@
 }
 
 /*----------------CONTENT-----------------*/
+/*----------------aside-------------*/
 .content {
     display: flex;
 }
@@ -125,3 +137,53 @@
 
     border-bottom: 2px solid #e1bf7b;
 }
+
+
+/*-----------------main----------------*/
+
+.skills-review{
+    background-color: #c5c4c4;
+    padding: 30px 40px;
+}
+
+.skills-review__technologies{
+    margin-bottom: 50px;
+}
+
+.technologies__list{
+    padding-left: 50px;
+}
+
+.technologies__elem{
+    list-style: circle;
+
+    font-family: "Hind Siliguri";
+    font-size: 28px;
+    color: #403f3d;
+
+    margin-bottom: 7px;
+}
+
+
+.education{
+    margin-bottom: 50px;
+}
+
+.education__body{
+    font-family: "Hind Siliguri";
+    font-size: 32px;
+    color: #403f3d;
+    padding-left: 30px;
+}
+
+
+
+
+.language__body{
+    font-family: "Hind Siliguri";
+    font-size: 32px;
+    color: #403f3d;
+    padding-left: 30px;
+}
+
+
