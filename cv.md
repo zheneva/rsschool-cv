@@ -23,14 +23,10 @@ Now I'm a student of [BSUIR](bsuir.by) majoring in _systems engineer_. Due to un
 
 ```javascript
 const moreElems = document.querySelectorAll('.more');
-console.log(moreElems);
-
 const modalElem = document.querySelector('.modal');
-
 const openModal = () => {
     modalElem.classList.remove('hidden');
 };
-
 const closeModal = () => {
     modalElem.classList.add('hidden');
 };
