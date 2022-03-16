@@ -16,6 +16,8 @@ Now I'm a student of [BSUIR](bsuir.by) majoring in _systems engineer_. Due to un
 - CSS 3
 - SCSS(SASS) preprocessor
 - JS
+- Git (GitHub)
+- БЭМ
 
 # Sample code
 
